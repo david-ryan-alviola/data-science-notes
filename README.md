@@ -1,11 +1,22 @@
-# 15DEC2020
+# 17DEC2020
 
-## git and GitHub
+## SQL Basic Statements
 
-* It's easier to make your repository on GitHub and than clone it to your local machine.
-* Basic steps when ready to commit
-    1. Run `git status` to see which files have changes.
-    2. Determine which files you want to commit.
-    3. `git add` the files you want to commit or `git add -p` for committing in chunks.
-    4. `git commit` your staged files.
-    5. `git push` your changes to the remote repository!
+* CRUD operations
+    1. Create - `INSERT`
+    2. Read - `SELECT`
+    3. Update - `UPDATE`
+    4. Delete - `DELETE`
+* Follow the standard of using the single quote to denote string values.
+* Reading data
+    * `SELECT column_name(s) FROM table_name;`
+    * Using `*` in place of a specific column name retrieves all columns from a table.
+    * Separate multiple column names with commas.
+* Filtering results
+    * `WHERE` clause
+    * `SELECT * FROM table_name WHERE column_name = 'value';`
+        * can use other operators besides `=`:  `>`,`<`,`!=`,`<>`,`<=`,`>=`,`!<`,`!>`, `BETWEEN min AND max`
+* Aliases
+    * `AS` keyword
+        * `SELECT column_name AS alias FROM table`
+        * `SELECT alias.column_name FROM table AS alias`
