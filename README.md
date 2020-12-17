@@ -2,10 +2,10 @@
 
 ## git and GitHub
 
-1. It's easier to make your repository on GitHub and then clone it to your local machine
-2. Basic steps when ready to commit
-* `git status`
-* determine which files you want to commit
-* `git add` the files you want to commit or `git add -p` for committing in chunks
-* `git commit` your staged files
-* `git push` your changes to the remote repository!
+* It's easier to make your repository on GitHub and than clone it to your local machine.
+* Basic steps when ready to commit
+    1. Run `git status` to see which files have changes.
+    2. Determine which files you want to commit.
+    3. `git add` the files you want to commit or `git add -p` for committing in chunks.
+    4. `git commit` your staged files.
+    5. `git push` your changes to the remote repository!
