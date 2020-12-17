@@ -1,11 +1,9 @@
-# data-science-notes
+# Data Science Notes
 
-## git and GitHub
+## How to use this repo
 
-1. It's easier to make your repository on GitHub and then clone it to your local machine
-2. Basic steps when ready to commit
-* `git status`
-* determine which files you want to commit
-* `git add` the files you want to commit or `git add -p` for committing in chunks
-* `git commit` your staged files
-* `git push` your changes to the remote repository!
+* I will keep my notes for each day in this repository.
+* The different branches are named by date.
+* The notes for the date of the branch will be present on the README file, so GitHub will render it on the page for that branch.
+* Feel free to fork this repo if you want another set of notes.
+* Don't forget to `git push` everyday!
