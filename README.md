@@ -40,3 +40,10 @@
     8. Casting
         * convert one data type into another
         * `SELECT CAST(123 AS CHAR), CAST('123' AS UNSIGNED);`
+* `GROUP BY`
+    * similar to `DISTINCT`, but also orders the results in ascending order by default
+    * `SELECT salary FROM salaries GROUP BY salary DESC;`
+    * Aggregate functions with `GROUP BY`
+        * `COUNT()`, `MIN()`, `MAX()`, `AVG()`
+        * ` SELECT CONCAT(first_name, ' ', last_name) AS full_name, COUNT(*) FROM employees GROUP BY full_name DESC ORDER BY count(*) DESC;`
+            * the second column shows the number of counts for a given full_name
