@@ -12,6 +12,8 @@
         * used to join two tables together
 * `JOIN`
     * default join is an inner join
+        * finds records from table A that correspond to a key on table B
+            * don't return nulls by default
     * Relationships
         1. one to one
             * username and password
@@ -29,4 +31,12 @@
         * shortcut if PK and FK have the same name
             * `SELECT * FROM table_a JOIN table_b USING(column_name);`
             * also condenses the output to only have one column for PK and FK
-        
+    * `LEFT JOIN`
+        * keeps any records from table A that have nulls to table B
+        * the table after the `FROM` clause is the left table
+    * `RIGHT JOIN`
+        * keeps any records from table B that have a null on table A
+        * the table after the `RIGHT JOIN` clause is the right table
+    * Can accomplish right join with `LEFT JOIN` clause by swapping table orders and vice versa.
+    * The number of joins is generally:  # of tables - 1
+    
