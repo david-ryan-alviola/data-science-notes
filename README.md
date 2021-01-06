@@ -1,9 +1,12 @@
-# Data Science Notes
+# 6-JAN-2021
 
-## How to use this repo
+## Temporary Tables
 
-* I will keep my notes for each day in this repository.
-* The different branches are named by date.
-* The notes for the date of the branch will be present on the README file, so GitHub will render it on the page for that branch.
-* Feel free to fork this repo if you want another set of notes.
-* Don't forget to `git push` everyday!
+* `TEMPORARY` keyword
+    * similar syntax to creating a permanent table, but `TEMPORARY` is added
+    * `CREATE TEMPORARY TABLE table_name(...)`
+    * can be used for data manipulations without modifying the source data
+        * can create and populate temporary tables using data from tables in different databases
+            1. `SELECT * FROM database.table`
+                * must specify database since you will be using a different DB
+            2. `CREATE TEMPORARY TABLE table_name AS (select_statement_above)`
