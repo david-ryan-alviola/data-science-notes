@@ -1,9 +1,13 @@
-# Data Science Notes
+# 11-JAN-2021
 
-## How to use this repo
+## Python
 
-* I will keep my notes for each day in this repository.
-* The different branches are named by date.
-* The notes for the date of the branch will be present on the README file, so GitHub will render it on the page for that branch.
-* Feel free to fork this repo if you want another set of notes.
-* Don't forget to `git push` everyday!
+* Environment setup
+    * can use zsh if you export to a .zsh_profile instead of .bash_profile
+    * `echo 'export PATH=/usr/local/anaconda3/bin:$PATH' >> ~/.zsh_profile`
+* Jupyter Notebook
+    * Similar to Kaggle
+    1. Shift + Enter runs a selected cell
+    2. Escape puts you into command mode
+    3. Enter highlights the select cell and enters edit mode
+    4. Can export notebooks as html files to view as notes (not executable code)
