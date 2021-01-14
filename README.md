@@ -1,9 +1,10 @@
-# Data Science Notes
+# 14-JAN-2021
 
-## How to use this repo
+## Functions
 
-* I will keep my notes for each day in this repository.
-* The different branches are named by date.
-* The notes for the date of the branch will be present on the README file, so GitHub will render it on the page for that branch.
-* Feel free to fork this repo if you want another set of notes.
-* Don't forget to `git push` everyday!
+* Review of control structures
+    * can do shorthand of exponents with:  `i **= power`
+        * raises i to power and reassigns the value to i
+* See functions_lesson notebook
+* Lambdas
+    * `lambda n: n + 1` same as `return n + 1`
